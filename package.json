@@ -1,0 +1,21 @@
+{
+  "name": "exirBackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RezaHabibi1001/exirBackend.git",
+  "author": "1377khorshidi <pr.rezaHabibi.1001@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start" : "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
